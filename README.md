@@ -13,7 +13,7 @@ My journey in computer science- Cybersecurity has led me to develop a passion fo
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | 
+| Python-Based Network Traffic Monitoring Tool https://github.com/tejaswini0111/Python-Based-Network-Traffic-Monitoring-Tool         | 
 | Network Traffic Monitoring and Attack Detection 
 | Security Automation with Shuffle SOAR         | 
 | Incident Response Planning and Execution      | 
