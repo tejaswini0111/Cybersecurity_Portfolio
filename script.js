@@ -49,8 +49,8 @@ const projects = {
     evidence: [
       "https://github.com/tejaswini0111/Python-Based-Network-Traffic-Monitoring-Tool",
       "https://private-user-images.githubusercontent.com/154247533/694867209-4fbe3ddd-2df8-4d4c-9a96-2bc548f00a86.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtlI6ImtlTUiLCJleHAiOjE3OTQ0MDg4MTEsIm5iZiI6MTc5NDQwODUxMSwicGF0aCI6Ii8xNTQyNDc1MzMvNjk0ODY3MjA5LTRmYmUzZGRkLTJkZjgtNGQ0Yy05YTk2LTJiYzU0OGYwMGE4Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMTExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTExMVQxNDQ4MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iN2IzMzk3MGIyYzY1NzI1MmY4MzU3M2E1YjY4N2M0M2FkZGM0YzVhNjFlODFlNzdjMDk5ZDVlZGI5MDBlOTcxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.yNmM_SQIICrC0F2wg4RDVcxWSBS2KfOEKIO1JmS-eA8",
-      "https://private-user-images.githubusercontent.com/154247533/694868509-772d2706-9050-4060-995c-f404cb76b3fe.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtlI6ImtlTUiLCJleHAiOjE3OTQ0MDg4MTEsIm5iZiI6MTc5NDQwODUxMSwicGF0aCI6Ii8xNTQyNDc1MzMvNjk0ODY4NTA5LTc3MmQyNzA2LTkwNTAtNDA2MC05OTVjLWY0MDRjYjc2YjNmZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMTExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTExMVQxNDQ4MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YTA2MDZmNWE5NGQ1MjY2MThiMTRmNjk3YmNlYjljY2VmODYwZjU1ZmQ3YjEyYzBkOGFmYWMyMzlkMzg1ZDE5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.NRn31h5d565w-MERfty76u_tXRutaURZGkQJsZZeaJ0",
-      "https://private-user-images.githubusercontent.com/154247533/694866158-94d8f4f4-435c-4edd-83f7-47513e8d1cad.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTQ0MDg4MTEsIm5iZiI6MTc5NDQwODUxMSwicGF0aCI6Ii8xNTQyNDc1MzMvNjk0ODY2MTU4LTk0ZDhmNGY0LTQzNWMtNGVkZC04M2Y3LTQ3NTEzZThkMWNhZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMTExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTExMVQxNDQ4MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00OTlmNmEyM2ExZGJkMzkwMmNlODk5NzkxNWE5NmVhN2IxMWZhZTI2ODAyYzIyZjBkNGRhYmM4YzljMDNiOTc4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.bYPZoVlFKW2j-5pG84CrZLm31K__cN3fDS366EeHqqQ",
+      "https://private-user-images.githubusercontent.com/154247533/694868509-772d2706-9050-4060-995c-f404cb76b3fe.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtlI6ImtlTUiLCJleHAiOjE3OTQ0MDg4MTEsIm5iZiI6MTc5NDQwODUxMSwicGF0aCI6Ii8xNTQyNDc1MzMvNjk0ODY4NTA5LTc3MmQyNzA6LTkwNTAtNDA6MC05OTVjLWY0MDRjYjc2YjNmZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMTExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTExMVQxNDQ4MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YTA2MDZmNWE5NGQ1MjY2MThiMTRmNjk3YmNlYjljY2VmODYwZjU1ZmQ3YjEyYzBkOGFmYWMyMzlkMzg1ZDE5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.NRn31h5d565w-MERfty76u_tXRutaURZGkQJsZZeaJ0",
+      "https://private-user-images.githubusercontent.com/154247533/694866158-94d8f4f4-435c-4edd-83f7-47513e8d1cad.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTQ0MDg4MTEsIm5iZiI6MTc5NDQwODUxMSwicGF0aCI6Ii8xNTQyNDc1MzMvNjk0ODY6MTU4LTk0ZDhmNGY0LTQzNWMtNGVkZC04M2Y3LTQ3NTEzZThkMWNhZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYxMTExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MTExMVQxNDQ4MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00OTlmNmEyM2ExZGJkMzkwMmNlODk5NzkxNWE5NmVhN2IxMWZhZTI2ODAyYzIyZjBkNGRhYmM4YzljMDNiOTc4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.bYPZoVlFKW2j-5pG84CrZLm31K__cN3fDS366EeHqqQ",
       "Implementation notes — https://github.com/tejaswini0111/Python-Based-Network-Traffic-Monitoring-Tool/blob/main/README.md"
     ]
   }
@@ -84,7 +84,6 @@ function formatEvidence(item) {
     }
   }
 
-  // Handle long private user images / JWT links nicely
   if (url.includes("private-user-images.githubusercontent.com")) {
     if (url.includes("694867209")) label = "Traffic Screenshot 1";
     else if (url.includes("694868509")) label = "Traffic Screenshot 2";
@@ -159,13 +158,6 @@ document.getElementById("modalCloseBottom").addEventListener("click", closeProje
 modal.addEventListener("click", event => { if (event.target === modal) closeProject(); });
 document.addEventListener("keydown", event => {
   if (event.key === "Escape" && modal.classList.contains("is-open")) closeProject();
-});
-
-document.querySelectorAll(".placeholder-link").forEach(link => {
-  link.addEventListener("click", event => {
-    event.preventDefault();
-    showToast(link.dataset.placeholder);
-  });
 });
 
 const menuToggle = document.getElementById("menuToggle");
